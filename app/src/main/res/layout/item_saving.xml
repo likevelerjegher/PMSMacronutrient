@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp">
+
+
+<TextView
+        android:id="@+id/foodInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calories"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Carbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carbs"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Fats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fats"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Proteins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proteins"
+        android:textSize="14sp" />
+</LinearLayout>
